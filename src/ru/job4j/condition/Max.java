@@ -6,7 +6,7 @@ public class Max {
 
     }
 
-    public static void main(String[] argf) {
+    public static void main(String[] arg) {
         int left = 1;
         int right = 2;
         int result = Max.max(left, right);
