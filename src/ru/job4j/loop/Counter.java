@@ -12,6 +12,6 @@ package ru.job4j.loop;
         public static void main(String[] args) {
             System.out.println(sum(0, 5));
             System.out.println(sum(3, 8));
-            System.out.println(sum(1, 3));
+            System.out.println(sum(1, 1));
         }
     }
