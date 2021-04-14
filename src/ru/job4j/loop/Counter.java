@@ -9,9 +9,13 @@ package ru.job4j.loop;
             return sum;
         }
 
-        public static void main(String[] args) {
-            System.out.println(sum(0, 5));
-            System.out.println(sum(3, 8));
-            System.out.println(sum(1, 1));
+        public static int sumByEven(int start, int finish) {
+            int sum = 0;
+            for (int n = start; n <= finish; n++) {
+                if (n % 2 == 0) {
+                    sum = sum + n;
+                }
+            }
+            return sum;
         }
     }
